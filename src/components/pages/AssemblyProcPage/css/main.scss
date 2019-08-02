@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('../css/Lab Grotesque Demo/LabGrotesque-Regular.otf'); /* IE9 Compat Modes */
+  }
+
+   @font-face {
+        font-family: 'Roobert';
+        src: url('../css/Roobert Demo/Roobert/Roobert-Regular.otf'); /* IE9 Compat Modes */
+
+   }
+
+.page {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden; 
+    margin-top: 40px;
+}
+
+.cards {
+    margin: 50px 100px;
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,224 @@
+
+$modelImgSvg: "data:image/svg+xml,%3Csvg width='160' height='100' viewBox='0 0 160 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='160' height='100' rx='3' fill='black' fill-opacity='0.03'/%3E%3Cpath d='M61.5561 49.333L22.1874 34.0264L97.7484 17.4778L137.793 34.4831L61.5561 49.333Z' fill='black' fill-opacity='0.02'/%3E%3Cpath d='M22.8752 34.1174L62.6316 49.9999L22.8752 34.1174Z' fill='%23F8F8F8'/%3E%3Cpath d='M22.8752 34.1174L62.6316 49.9999' stroke='%23E4E2E2'/%3E%3Cpath d='M137.316 67.3684V34.3684V67.3684Z' fill='%23F8F8F8'/%3E%3Cpath d='M137.316 67.3684V34.3684' stroke='%23E4E2E2'/%3E%3Cpath d='M22.6842 67.3684V34.3684V67.3684Z' fill='%23F8F8F8'/%3E%3Cpath d='M22.6842 67.3684V34.3684' stroke='%23E4E2E2'/%3E%3Cpath d='M97.3684 51.7368V18.7368V51.7368Z' fill='%23F8F8F8'/%3E%3Cpath d='M97.3684 51.7368V18.7368' stroke='%23E4E2E2' stroke-dasharray='1 1'/%3E%3Cpath d='M22.6842 67.3684L97.3684 51.7368L22.6842 67.3684Z' fill='%23F8F8F8'/%3E%3Cpath d='M22.6842 67.3684L97.3684 51.7368' stroke='%23E4E2E2' stroke-dasharray='1 1'/%3E%3Cpath d='M22.6842 67.3684L62.6316 83L22.6842 67.3684Z' fill='%23F8F8F8'/%3E%3Cpath d='M22.6842 67.3684L62.6316 83' stroke='%23E4E2E2'/%3E%3Cpath d='M62.6316 83L137.316 67.3684L62.6316 83Z' fill='%23F8F8F8'/%3E%3Cpath d='M62.6316 83L137.316 67.3684' stroke='%23E4E2E2'/%3E%3Cpath d='M99.1053 51.7368L137.316 67.3684L99.1053 51.7368Z' fill='%23F8F8F8'/%3E%3Cpath d='M99.1053 51.7368L137.316 67.3684' stroke='%23E4E2E2' stroke-dasharray='1 1'/%3E%3Cpath d='M62.6316 83V50V83Z' fill='%23F8F8F8'/%3E%3Cpath d='M62.6316 83V50' stroke='%23E4E2E2'/%3E%3Cpath d='M62.6316 50L137.316 34.3684L62.6316 50Z' fill='%23F8F8F8'/%3E%3Cpath d='M62.6316 50L137.316 34.3684' stroke='%23E4E2E2'/%3E%3Cpath d='M22.6842 34.3684L97.3684 17L22.6842 34.3684Z' fill='%23F8F8F8'/%3E%3Cpath d='M22.6842 34.3684L97.3684 17' stroke='%23E4E2E2'/%3E%3Cpath d='M97.3684 17L137.316 34.3684L97.3684 17Z' fill='%23F8F8F8'/%3E%3Cpath d='M97.3684 17L137.316 34.3684' stroke='%23E4E2E2'/%3E%3C/svg%3E";
+$editIconSvg: "data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.484 3.77124L15.8376 4.12479L19.8524 8.13961L20.2059 8.49316L19.8524 8.84671L8.69909 20H20V21H2.99997V20.4966H2.97925V16.4831V16.276L3.12569 16.1296L15.1305 4.12479L15.484 3.77124ZM16.8702 10.4147L7.28487 20H3.97925V16.6902L13.5625 7.10701L16.8702 10.4147ZM17.5773 9.70761L18.7917 8.49316L15.484 5.18545L14.2696 6.3999L17.5773 9.70761Z' fill='%237F8487'/%3E%3C/svg%3E ";
+$removeIconSvg: "data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10 4C8.89543 4 8 4.89543 8 6V7H6.5H5.95463H4V8H6.04159L7.00013 19.0232C7.01257 20.1171 7.90318 21 9 21H15C16.0968 21 16.9874 20.1171 16.9999 19.0232L17.9584 8H20V7H18.0454H17.5H16V6C16 4.89543 15.1046 4 14 4H10ZM15 7V6C15 5.44772 14.5523 5 14 5H10C9.44772 5 9 5.44772 9 6V7H15ZM8 8H7.04537L7.99812 18.9567L8 18.9783V19C8 19.5523 8.44772 20 9 20H15C15.5523 20 16 19.5523 16 19V18.9783L16.0019 18.9567L16.9546 8H16H15.5H8.5H8ZM11 11H10V16H11V11ZM13 11H14V16H13V11Z' fill='%237F8487'/%3E%3C/svg%3E%0A";
+$arrowIconSvg: "data:image/svg+xml,%3Csvg width='17' height='16' viewBox='0 0 17 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.7332 2.7666L15.7645 7.97843L10.7332 13.0098' stroke='white' stroke-width='1.5' stroke-linecap='square'/%3E%3Cpath d='M14.6861 7.96658L1.99997 7.96658' stroke='white' stroke-width='1.5' stroke-linecap='square'/%3E%3C/svg%3E";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(54, 65, 76, 0.15);
+    border-radius: 4px;
+    height: 132px;
+    min-width: 750px;
+    max-width: 1680px;
+
+
+    .card__assemblyStatus {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        left: 8px;
+        top: 8px;
+        width: 63px;
+        height: 20px;
+        background: #FFC800;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        box-sizing: border-box;
+        border-radius: 3px;
+
+        .card__assemblyStatus-text {
+            
+            font-family: "Lab Grotesque";
+            font-weight: 600;
+            font-size: 11px;
+            text-align: center;
+            letter-spacing: 0.2px;
+
+        }
+    }
+
+    .assemblyStatus_finish {
+        background: white;
+    }
+
+
+    .card__image {
+        width: 160px;
+        height: 100px;
+        background: url($modelImgSvg) no-repeat;
+        margin: 16px 0px 16px 32px;
+ 
+    }
+
+    .card__info {
+        margin: 29px 0px 29px 56.5px;
+        width: 289px;
+        height: 74px;
+
+        .card__info-name {
+            font-family: "Roobert";
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 5px;
+        }
+
+        .card__info-review {
+            display: flex;
+            position: relative;
+            border-bottom: 1px solid #BDC0C1;
+            margin-bottom: 10px;
+            height: 13px;
+
+            
+            
+            .card__info-review-text {
+                position: absolute;
+                padding: 0px 10px 0px 0px;
+                background: white;
+                overflow: hidden;
+                color: rgba(0, 0, 0, 0.5);
+                font-family: "Lab Grotesque";
+                font-size: 14px;
+            }
+            
+            .card__info-review-status-text {
+                position: absolute;
+                padding: 0px 0px 0px 10px;
+                right: 0;
+                background: white;
+                font-family: "Lab Grotesque";
+                font-size: 14px;
+            }
+
+        }
+
+
+
+        .card__info-lastUpdates {
+            display: flex;
+            position: relative;
+            border-bottom: 1px solid #BDC0C1;
+            height: 13px;
+
+            .card__info-lastUpdates-text {
+                position: absolute;
+                padding: 0px 10px 0px 0px;
+                background: white;
+                overflow: hidden;
+                font-size: 14px;
+                font-family: "Lab Grotesque";
+                color: rgba(0, 0, 0, 0.5);
+            }
+    
+            .card__info-lastUpdates-time-text {
+                position: absolute;
+                padding: 0px 0px 0px 10px;
+                right: 0;
+                font-size: 14px;
+                font-family: "Lab Grotesque";
+                background: white;
+                
+            }
+        }
+
+        .info-review-status-text_negative {
+            color: #E91630;
+        }
+        
+        .info-review-status-text_positive {
+            color: #34C86E;
+        }
+
+    }
+
+    .card__buttons {
+        position: relative;
+        width: 172px;
+        margin-left: auto;
+        opacity: 0;
+
+
+        .card__buttons-edit {
+            position: absolute;
+
+            cursor: pointer;
+            background: url($editIconSvg) no-repeat;
+            background-position: center center;
+
+
+            width: 24px;
+            height: 24px;
+
+            right: 61.5px;
+            top: 27px;
+
+        }
+
+        .card__buttons-delete {    
+            position: absolute;
+
+            cursor: pointer;
+            background: url($removeIconSvg) no-repeat;
+            background-position: center center;
+
+            width: 24px;
+            height: 24px;
+
+            right: 35px;
+            top: 27px;
+        }
+
+        .card__buttons-viewProc {
+            cursor: pointer;
+            position: absolute;
+            display: flex;
+            background: #2B7CEE;
+            width: 148px;
+            height: 40px;
+            border-radius: 4px;
+            right: 24px;
+            bottom: 24px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card__buttons-viewProc-text {
+            font-family: "Lab Grotesque";
+            font-size: 13px;
+            line-height: 16px;
+            letter-spacing: 0.144444px;
+            color: #FFFFFF;
+        }
+
+        .card__buttons-viewProc-arrow {
+            width: 24px;
+            height: 24px;
+            margin-left: 18px;
+
+            background: url($arrowIconSvg) no-repeat;
+            background-position: center center;
+        }
+    }
+}
+
+.card:hover {
+    box-shadow: 0px 6px 12px rgba(54, 65, 76, 0.15);
+    border-radius: 4px;
+	transition: all 0.2s ease-in-out;
+    .card__buttons {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+    }
+}
+
+
+

@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.filter {
+    background: #F4F5F6;
+    border: 1px solid #D6DADB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 428px;
+    min-width: 240px;
+    padding: 21px 0px 0px 20px;
+    margin-left: 80px;
+    .filter__title {
+        font-family: "Roobert";
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 14px;
+    }
+    .filter__menu {
+         margin-bottom: 20px;
+        .filter__menu-title {
+            font-family: "Lab Grotesque";
+            font-weight: 100;
+            font-size: 11px;
+            line-height: 13px;
+            color: #98989D;
+            margin-bottom: 11px;
+        }
+
+        .filter__menu-item {
+            cursor: pointer;
+            list-style-type: none;
+            padding-left: 10px;
+            font-family: "Lab Grotesque";
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 200;
+            box-shadow: -1px 0 0 0 rgba(31, 28, 28, 0); /* Border left */
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        .menu-item_clicked {
+            color: rgba(0, 0, 0, 1);
+            box-shadow: -1px 0 0 0 rgba(0,0,0,1);
+        }
+
+    }
+
+
+
+}
