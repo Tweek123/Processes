@@ -80,7 +80,7 @@ constructor(props) {
         this.renderCard.reviewStatus.title = "Review Status"
         this.renderCard.reviewStatus.mod = '';
       break
-        
+
     }
     
     
