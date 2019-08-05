@@ -91,17 +91,17 @@ constructor(props) {
 
     const timeInTimeZone = Date.parse(this.props.process.updated.split(' ')[0]);
     const timeZoneStr = this.props.process.updated.split(' ')[1];
-
-    const timeZone = timeZoneStr[0] + timeZoneStr[1];
+    // console.log(timeZoneStr);
+    const timeZone = timeZoneStr.split(':')[0];
     // console.log(timeZone);
 
     const dateNow = new Date();
 
     const timeNow  = new Date().valueOf();
 
-    const timeZoneHere = dateNow.getTimezoneOffset() / 60;
+    const timeZoneHere = Math.abs(dateNow.getTimezoneOffset() / 60);
 
-    const timeZoneDiff = (timeZoneHere - timeZone)*3.6*Math.exp(6); 
+    const timeZoneDiff = (timeZoneHere - timeZone)*3.6*Math.pow(10,6); 
 
     const currTimeInTimeZone =  timeInTimeZone + timeZoneDiff;
 
@@ -119,12 +119,24 @@ constructor(props) {
 
 
 
-    if(timeDiff >= 3.6*Math.exp(6)) {
+    if(timeDiff >= 3.6*Math.pow(10,6) || timeDiff < 0) {
+
+
+
+      // console.log('TIME1');
+      // console.log(timeDiff);
+      // console.log(3.6*Math.pow(10,6));
+
+
       this.renderCard.updateTime.text = this.props.process.updated.split(' ')[0].replace('T',', ').replace('-','/').replace('-','/');
       // console.log(this.renderCard.updateTime.text.replace('-','/'));
 
     } else {
-      this.renderCard.updateTime.text = timeDiff/1.6*Math.exp(-5);
+      // console.log('TIME2');
+      // console.log(timeDiff);
+
+      // console.log(timeDiff);
+      this.renderCard.updateTime.text = Math.round(timeDiff/60000) +" minutes ago";
     }    
     
   //  "_id": "5d4193af8e993276d1193992",
